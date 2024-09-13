@@ -1,5 +1,52 @@
 var tot = 0;
 
+function init() {
+    setButtonNames();
+    setAllItems();
+}
+
+function setAllItems() {
+
+    items.forEach(item => {
+
+        var newDiv = document.createElement('div');
+        newDiv.classList.add("itemBox");
+    
+        var newBtn = document.createElement('input');
+        newBtn.id = item.id_num.replaceAll('num_', 'btn_');
+        newBtn.type = "button";
+        newBtn.value = item.name;
+        newBtn.style.background = item.colore;
+        newBtn.classList.add("label_btn");
+        newBtn.onclick = function() { addToItem(item.id_num) };
+        
+        var newBtnDel = document.createElement('input');
+        newBtnDel.value = "-";
+        newBtnDel.type = "button";
+        newBtnDel.classList.add("del_btn");
+        newBtnDel.onclick = function() { removeToItem(item.id_num) };
+        
+        var newNum = document.createElement('input');
+        newNum.id = item.id_num;
+        newNum.type = "number";
+        newNum.value = 0;
+        newNum.onclick = function() { updateNumber(item.id_num) };
+    
+        newDiv.appendChild(newBtn);
+        newDiv.appendChild(newBtnDel);
+        newDiv.appendChild(newNum);
+    
+        if (item.categoria == "bar") document.querySelectorAll('#div_bere')[0].appendChild(newDiv);
+        else document.querySelectorAll('#div_mangiare')[0].appendChild(newDiv);
+    });
+
+
+    // <div class="itemBox">
+    //     <input id='btn_liquore' type="button" class="label_btn" onclick="addToItem('num_liquore')"/>
+    //     <input type="button" value="-" class="del_btn" onclick="removeToItem('num_liquore')"/>
+    //     <input id='num_liquore' type="number" oninput="updateNumber('num_liquore')" value="0"/>
+    // </div>      
+}
 
 function setButtonNames() {
     document.querySelectorAll('div > div > div > input[type=button]').forEach(el => {
@@ -91,7 +138,7 @@ function updateConto() {
                 document.getElementById(el.id_num).style.background = 'green';
             }
             else {
-                document.getElementById(el.id_num.replaceAll('num_', 'btn_')).style.background = 'white';
+                document.getElementById(el.id_num.replaceAll('num_', 'btn_')).style.background = el.colore;
                 document.getElementById(el.id_num).style.background = 'white';
             }
         }

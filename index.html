@@ -16,84 +16,25 @@
         <div style="width: 100%;" >
 
             <h2>Bere</h1>
-            <div class="itemBox">
-                <input id='btn_birra_pic' type="button" class="label_btn" onclick="addToItem('num_birra_pic')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_birra_pic')"/>
-                <input id='num_birra_pic' type="number" oninput="updateNumber('num_birra_pic')" value="0"/>
-            </div>
 
-            <div class="itemBox">
-                <input id='btn_birra_med' type="button" class="label_btn" onclick="addToItem('num_birra_med')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_birra_med')"/>
-                <input id='num_birra_med' type="number" oninput="updateNumber('num_birra_med')" value="0"/>
-            </div>
-
-            <div class="itemBox">
-                <input id='btn_lattina' type="button" class="label_btn" onclick="addToItem('num_lattina')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_lattina')"/>
-                <input id='num_lattina' type="number" oninput="updateNumber('num_lattina')" value="0"/>
-            </div>
-            
-            <div class="itemBox">
-                <input id='btn_birra_bott' type="button" class="label_btn" onclick="addToItem('num_birra_bott')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_birra_bott')"/>
-                <input id='num_birra_bott' type="number" oninput="updateNumber('num_birra_bott')" value="0"/>
-            </div>
-            
-            <div class="itemBox">
-                <input id='btn_bott_vino075' type="button" class="label_btn" onclick="addToItem('num_bott_vino075')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_bott_vino075')"/>
-                <input id='num_bott_vino075' type="number" oninput="updateNumber('num_bott_vino075')" value="0"/>
-            </div>
-            
-            <div class="itemBox">
-                <input id='btn_bott_vino14' type="button" class="label_btn" onclick="addToItem('num_bott_vino14')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_bott_vino14')"/>
-                <input id='num_bott_vino14' type="number" oninput="updateNumber('num_bott_vino14')" value="0"/>
-            </div>
-
-            <div class="itemBox">
-                <input id='btn_acqua_grand' type="button" class="label_btn" onclick="addToItem('num_acqua_grand')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_acqua_grand')"/>
-                <input id='num_acqua_grand' type="number" oninput="updateNumber('num_acqua_grand')" value="0"/>
-            </div>
-
-            <div class="itemBox">
-                <input id='btn_acqua_pic' type="button" class="label_btn" onclick="addToItem('num_acqua_pic')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_acqua_pic')"/>
-                <input id='num_acqua_pic' type="number" oninput="updateNumber('num_acqua_pic')" value="0"/>
-            </div>
-            
-            <div class="itemBox">
-                <input id='btn_caffe' type="button" class="label_btn" onclick="addToItem('num_caffe')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_caffe')"/>
-                <input id='num_caffe' type="number" oninput="updateNumber('num_caffe')" value="0"/>
-            </div>
-
-            <div class="itemBox">
-                <input id='btn_caffe_corr' type="button" class="label_btn" onclick="addToItem('num_caffe_corr')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_caffe_corr')"/>
-                <input id='num_caffe_corr' type="number" oninput="updateNumber('num_caffe_corr')" value="0"/>
-            </div>
-
-            <div class="itemBox">
-                <input id='btn_liquore' type="button" class="label_btn" onclick="addToItem('num_liquore')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_liquore')"/>
-                <input id='num_liquore' type="number" oninput="updateNumber('num_liquore')" value="0"/>
+            <div id="div_bere">
             </div>
 
             <h2>Mangiare</h1>
 
-            <div class="itemBox">
-                <input id='btn_pata' type="button" class="label_btn" onclick="addToItem('num_pata')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_pata')"/>
-                <input id='num_pata' type="number" oninput="updateNumber('num_pata')" value="0"/>
-            </div>
-            
-            <div class="itemBox">
-                <input id='btn_hamb' type="button" class="label_btn" onclick="addToItem('num_hamb')"/>
-                <input type="button" value="-" class="del_btn" onclick="removeToItem('num_hamb')"/>
-                <input id='num_hamb' type="number" oninput="updateNumber('num_hamb')" value="0"/>
+            <div id="div_mangiare">
+
+                <!-- <div class="itemBox">
+                    <input id='btn_pata' type="button" class="label_btn" onclick="addToItem('num_pata')"/>
+                    <input type="button" value="-" class="del_btn" onclick="removeToItem('num_pata')"/>
+                    <input id='num_pata' type="number" oninput="updateNumber('num_pata')" value="0"/>
+                </div>
+                
+                <div class="itemBox">
+                    <input id='btn_hamb' type="button" class="label_btn" onclick="addToItem('num_hamb')"/>
+                    <input type="button" value="-" class="del_btn" onclick="removeToItem('num_hamb')"/>
+                    <input id='num_hamb' type="number" oninput="updateNumber('num_hamb')" value="0"/>
+                </div> -->
             </div>
         </div>
 
@@ -102,7 +43,7 @@
     </div>
 
     <script>
-        window.onload = setButtonNames();
+        window.onload = init();
     </script>
 
 </html>

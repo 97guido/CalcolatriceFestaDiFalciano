@@ -3,156 +3,206 @@ var items = [
         "name": "Birra alla spina PICCOLA [€3,50]",
         "prezzo": 3.5,
         "quantita": 0,
-        "id_num": "num_birra_pic"
+        "id_num": "num_birra_pic",
+        "colore": "#fff899",
+        "categoria": "bar"
     },
     {
         "name": "Birra alla spina MEDIA [€5]",
         "prezzo": 5,
         "quantita": 0,
-        "id_num": "num_birra_med"
+        "id_num": "num_birra_med",
+        "colore": "#fff899",
+        "categoria": "bar"
     },
     {
         "name": "Bibita lattina [€2,50]",
         "prezzo": 2.5,
         "quantita": 0,
-        "id_num": "num_lattina"
+        "id_num": "num_lattina",
+        "colore": "#ff9999",
+        "categoria": "bar"
     },
     {
         "name": "Birra bottiglia [€3]",
         "prezzo": 3,
         "quantita": 0,
-        "id_num": "num_birra_bott"
+        "id_num": "num_birra_bott",
+        "colore": "#fff899",
+        "categoria": "bar"
     },
     {
         "name": "Bottiglia vino 0,75L [€5]",
         "prezzo": 5,
         "quantita": 0,
-        "id_num": "num_bott_vino075"
+        "id_num": "num_bott_vino075",
+        "colore": "#e799ff",
+        "categoria": "bar"
     },
     {
         "name": "Bottiglia vino 1/4L [€2]",
         "prezzo": 2,
         "quantita": 0,
-        "id_num": "num_bott_vino14"
+        "id_num": "num_bott_vino14",
+        "colore": "#e799ff",
+        "categoria": "bar"
     },
     {
         "name": "Bottiglia acqua GRANDE [€2]",
         "prezzo": 2,
         "quantita": 0,
-        "id_num": "num_acqua_grand"
+        "id_num": "num_acqua_grand",
+        "colore": "#99f0ff",
+        "categoria": "bar"
     },
     {
         "name": "Bottiglia acqua PICCOLA [€1]",
         "prezzo": 1,
         "quantita": 0,
-        "id_num": "num_acqua_pic"
+        "id_num": "num_acqua_pic",
+        "colore": "#99f0ff",
+        "categoria": "bar"
     },
     {
         "name": "Caffè [€1,20]",
         "prezzo": 1.2,
         "quantita": 0,
-        "id_num": "num_caffe"
+        "id_num": "num_caffe",
+        "colore": "#a78c7c",
+        "categoria": "bar"
     },
     {
         "name": "Caffè corretto [€1,50]",
         "prezzo": 1.5,
         "quantita": 0,
-        "id_num": "num_caffe_corr"
+        "id_num": "num_caffe_corr",
+        "colore": "#a78c7c",
+        "categoria": "bar"
     },
     {
         "name": "Liquore [€3]",
         "prezzo": 3,
         "quantita": 0,
-        "id_num": "num_liquore"
+        "id_num": "num_liquore",
+        "colore": "#988fa3",
+        "categoria": "bar"
     },
 
 
 
 
 
-
-    {
-        "name": "Patatine [€3]",
-        "prezzo": 3,
-        "quantita": 0,
-        "id_num": "num_pata"
-    },
-    {
-        "name": "Hamburger [€7]",
-        "prezzo": 7,
-        "quantita": 0,
-        "id_num": "num_hamb"
-    },
     {
         "name": "Solo piada [€1]",
         "prezzo": 1,
         "quantita": 0,
-        "id_num": "num_piada"
+        "id_num": "num_piada",
+        "colore": "#ffcf99",
+        "categoria": "cibo"
     },
     {
         "name": "Piada con prosciutto [€7]",
         "prezzo": 7,
         "quantita": 0,
-        "id_num": "num_piada_pros"
+        "id_num": "num_piada_pros",
+        "colore": "linear-gradient(to right, #ffcf99 , #ff9999)",
+        "categoria": "cibo"
     },
     {
         "name": "Piada crudo, casatella e rucola [€7,50]",
         "prezzo": 7.5,
         "quantita": 0,
-        "id_num": "num_piada_cru_ca_ru"
+        "id_num": "num_piada_cru_ca_ru",
+        // "colore": "#ffcf99"
+        "colore": "linear-gradient(to right, #ff9999, white, #dbff99)",
+        "categoria": "cibo"
     },
     {
         "name": "Piada con salame [€6]",
         "prezzo": 6,
         "quantita": 0,
-        "id_num": "num_piada_salame"
+        "id_num": "num_piada_salame",
+        "colore": "linear-gradient(to right, #ffcf99 , #ff9999)",
+        "categoria": "cibo"
     },
     {
         "name": "Piada con salsiccia [€7]",
         "prezzo": 7,
         "quantita": 0,
-        "id_num": "num_piada_salsic"
+        "id_num": "num_piada_salsic",
+        "colore": "linear-gradient(to right, #ffcf99 , #a78c7c)",
+        "categoria": "cibo"
     },
     {
         "name": "Piada casatella e rucola [€7]",
         "prezzo": 7,
         "quantita": 0,
-        "id_num": "num_piada_casa_ruc"
+        "id_num": "num_piada_casa_ruc",
+        "colore": "linear-gradient(to right, white, #dbff99)",
+        "categoria": "cibo"
     },
     {
         "name": "Piada con Gratin (4 pz.) [€7]",
         "prezzo": 7,
         "quantita": 0,
-        "id_num": "num_piada_grat"
+        "id_num": "num_piada_grat",
+        "colore": "linear-gradient(to right, #ff9999, #dbff99)",
+        "categoria": "cibo"
     },
     {
         "name": "Strozzapreti [€7,50]",
         "prezzo": 7.5,
         "quantita": 0,
-        "id_num": "num_strozzap"
+        "id_num": "num_strozzap",
+        "colore": "#ffad99",
+        "categoria": "cibo"
     },
     {
         "name": "Trippa [€7,50]",
         "prezzo": 7.5,
         "quantita": 0,
-        "id_num": "num_trippa"
+        "id_num": "num_trippa",
+        "colore": "#ffad99",
+        "categoria": "cibo"
     },
     {
         "name": "Cotiche con fagioli [€7]",
         "prezzo": 7,
         "quantita": 0,
-        "id_num": "num_cotiche_fagio"
+        "id_num": "num_cotiche_fagio",
+        "colore": "#ffad99",
+        "categoria": "cibo"
     },
     {
         "name": "Gratin (4 pz.) [€6]",
         "prezzo": 6,
         "quantita": 0,
-        "id_num": "num_gratin"
+        "id_num": "num_gratin",
+        "colore": "#dbff99",
+        "categoria": "cibo"
     },
     {
         "name": "Insalata [€2,50]",
         "prezzo": 2.5,
         "quantita": 0,
-        "id_num": "num_insalata"
+        "id_num": "num_insalata",
+        "colore": "#dbff99",
+        "categoria": "cibo"
+    },    
+    {
+        "name": "Patatine [€3]",
+        "prezzo": 3,
+        "quantita": 0,
+        "id_num": "num_pata",
+        "colore": "#fff899",
+        "categoria": "cibo"
+    },
+    {
+        "name": "Hamburger [€7]",
+        "prezzo": 7,
+        "quantita": 0,
+        "id_num": "num_hamb",
+        "colore": "#ff9999",
+        "categoria": "cibo"
     },
 ]

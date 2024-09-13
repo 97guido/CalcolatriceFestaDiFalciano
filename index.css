@@ -1,6 +1,19 @@
 ﻿body {
-    background: #ffcccc;
+    background: #ff8c3f;
     font-family: 'Calibri';
+}
+
+.test{
+    background: #ffcf99; 
+    background: #ffad99; 
+    background: #dbff99; 
+    background: #fff899; 
+    background: #ff9999; 
+    background: #e799ff; 
+    background: #99f0ff; 
+    background: #a78c7c; 
+    background: #988fa3;
+
 }
 
 .itemBox {
@@ -27,19 +40,13 @@ input {
 }
 
 .label_btn {
-    width: 55%;
+    width: 60%;
     text-align: left;
 }
 
 input[type=number] {
-    width: 15%;
+    width: 10%;
 }
-
-input[type=number][value]:not(:is(
-[value="0"])) {
-    background: #38c515;
-}
-
 
 
 input[type=number][value] {
