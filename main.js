@@ -84,7 +84,17 @@ function updateConto() {
     
     items.forEach(el => {
         tot += el.prezzo * el.quantita;
-        // document.getElementById(el.id_num).value = el.quantita;
+        if (document.getElementById(el.id_num) != undefined) {
+            document.getElementById(el.id_num).value = el.quantita;
+            if (el.quantita > 0) {
+                document.getElementById(el.id_num.replaceAll('num_', 'btn_')).style.background = 'green';
+                document.getElementById(el.id_num).style.background = 'green';
+            }
+            else {
+                document.getElementById(el.id_num.replaceAll('num_', 'btn_')).style.background = 'white';
+                document.getElementById(el.id_num).style.background = 'white';
+            }
+        }
     });
     document.getElementById('totBox').innerHTML = `€ ${tot}`.replaceAll('.', ',');
 }

@@ -35,6 +35,17 @@ input[type=number] {
     width: 15%;
 }
 
+input[type=number][value]:not(:is(
+[value="0"])) {
+    background: #38c515;
+}
+
+
+
+input[type=number][value] {
+    width: 15%;
+}
+
 .del_btn {
     /* background: #6e1c1c;  */
     background: #d81212; 
