@@ -30,7 +30,7 @@ function setAllItems() {
         newNum.id = item.id_num;
         newNum.type = "number";
         newNum.value = 0;
-        newNum.onclick = function() { updateNumber(item.id_num) };
+        newNum.oninput = function() { updateNumber(item.id_num) };
     
         newDiv.appendChild(newBtn);
         newDiv.appendChild(newBtnDel);
@@ -143,7 +143,8 @@ function updateConto() {
             }
         }
     });
-    document.getElementById('totBox').innerHTML = `€ ${tot}`.replaceAll('.', ',');
+    document.getElementById('totBox').innerHTML = `Totale € ${tot.toFixed(2)}`.replaceAll('.', ',');
+    calcolaResto();
 }
 
 function cancellaTutto() {
@@ -153,4 +154,15 @@ function cancellaTutto() {
     });
     document.getElementById('totBox').innerHTML = 'Totale:';
     updateConto();
+    document.getElementById('num_pagato').value = undefined;
+    document.getElementById('restoBox').innerText = 'Resto € 0';
+}
+
+function calcolaResto() {
+    var pagato = document.getElementById('num_pagato').value;
+    if (tot >= pagato) {
+        document.getElementById('restoBox').innerText = 'Resto € 0';
+        return;
+    }
+    document.getElementById('restoBox').innerText = `Resto € ${(pagato-tot).toFixed(2).replaceAll('.', ',')}`;
 }

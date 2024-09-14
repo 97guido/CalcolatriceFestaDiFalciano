@@ -1,5 +1,6 @@
 ﻿body {
-    background: #ff8c3f;
+    background: #ffe4d1;
+    /* background: linear-gradient(#d0f8ff, #ffcf99); */
     font-family: 'Calibri';
 }
 
@@ -30,6 +31,8 @@ h1 {
 h2 {
     margin-left: 10%;
     font-size: 65px;
+    width: 60%;
+    display: inline-block;
 }
 
 input {
@@ -40,17 +43,12 @@ input {
 }
 
 .label_btn {
-    width: 60%;
+    width: 65%;
     text-align: left;
 }
 
 input[type=number] {
-    width: 10%;
-}
-
-
-input[type=number][value] {
-    width: 15%;
+    width: 5%;
 }
 
 .del_btn {

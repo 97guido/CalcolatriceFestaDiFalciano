@@ -1,5 +1,13 @@
 var items = [
     {
+        "name": "Birra bottiglia [€3]",
+        "prezzo": 3,
+        "quantita": 0,
+        "id_num": "num_birra_bott",
+        "colore": "#fff899",
+        "categoria": "bar"
+    },
+    {
         "name": "Birra alla spina PICCOLA [€3,50]",
         "prezzo": 3.5,
         "quantita": 0,
@@ -24,11 +32,11 @@ var items = [
         "categoria": "bar"
     },
     {
-        "name": "Birra bottiglia [€3]",
-        "prezzo": 3,
+        "name": "Bottiglia vino 1/4L [€2]",
+        "prezzo": 2,
         "quantita": 0,
-        "id_num": "num_birra_bott",
-        "colore": "#fff899",
+        "id_num": "num_bott_vino14",
+        "colore": "#e799ff",
         "categoria": "bar"
     },
     {
@@ -36,14 +44,6 @@ var items = [
         "prezzo": 5,
         "quantita": 0,
         "id_num": "num_bott_vino075",
-        "colore": "#e799ff",
-        "categoria": "bar"
-    },
-    {
-        "name": "Bottiglia vino 1/4L [€2]",
-        "prezzo": 2,
-        "quantita": 0,
-        "id_num": "num_bott_vino14",
         "colore": "#e799ff",
         "categoria": "bar"
     },

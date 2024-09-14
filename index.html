@@ -15,15 +15,14 @@
 
         <div style="width: 100%;" >
 
-            <h2>Bere</h1>
-
             <div id="div_bere">
+                <h2>Bere</h2>
             </div>
 
-            <h2>Mangiare</h1>
+            
 
-            <div id="div_mangiare">
-
+            <div id="div_mangiare" style="display: none;">
+                <h2>Mangiare</h2>
                 <!-- <div class="itemBox">
                     <input id='btn_pata' type="button" class="label_btn" onclick="addToItem('num_pata')"/>
                     <input type="button" value="-" class="del_btn" onclick="removeToItem('num_pata')"/>
@@ -38,7 +37,9 @@
             </div>
         </div>
 
-        <h2 id="totBox" class="display-4" style="background: #c6c911; margin-left: 30%; margin-top: 10%; width: 40%; text-align: center; padding-top: 2%; padding-bottom: 2%;">€ 0</h1>
+        <h2 id="totBox" class="display-4" style="background: #e2e612; margin-left: 30%; margin-top: 10%; width: 40%; text-align: center; padding-top: 2%; padding-bottom: 2%;">Totale € 0</h1>
+        <input id="num_pagato" type="number" placeholder="Pagato €" style="background: #12e6b8; margin-left: 30%; margin-top: 2%; width: 40%; text-align: center; padding: 0%; padding-top: 2%; padding-bottom: 2%;" oninput="calcolaResto()"/>
+        <h2 id="restoBox" class="display-4" style="background: #1275e6; margin-left: 30%; margin-top: 2%; width: 40%; text-align: center; padding-top: 2%; padding-bottom: 2%;">Resto € 0</h1>
         <input type="button" value="Cancella tutto" onclick="cancellaTutto()" style="background: #b81818; margin-left: 30%; width: 40%; text-align: center;"/>
     </div>
 
