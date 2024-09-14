@@ -195,7 +195,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_pata",
         "colore": "#fff899",
-        "categoria": "cibo"
+        "categoria": "bar"
     },
     {
         "name": "Hamburger [€7]",
@@ -203,6 +203,6 @@ var items = [
         "quantita": 0,
         "id_num": "num_hamb",
         "colore": "#ff9999",
-        "categoria": "cibo"
+        "categoria": "bar"
     },
 ]
