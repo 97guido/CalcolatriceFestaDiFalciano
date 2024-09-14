@@ -4,10 +4,10 @@
     font-family: 'Calibri';
 }
 
-:root {
+/* :root {
     touch-action: pan-x pan-y;
-    /* height: 100%  */
-}
+    height: 100% 
+} */
 
 .test{
     background: #ffcf99; 
