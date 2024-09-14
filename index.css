@@ -4,6 +4,11 @@
     font-family: 'Calibri';
 }
 
+:root {
+    touch-action: pan-x pan-y;
+    height: 100% 
+}
+
 .test{
     background: #ffcf99; 
     background: #ffad99; 
