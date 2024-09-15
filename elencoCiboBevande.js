@@ -5,7 +5,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_birra_bott",
         "colore": "#fff899",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Birra alla spina PICCOLA [€3,50]",
@@ -13,7 +13,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_birra_pic",
         "colore": "#fff899",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Birra alla spina MEDIA [€5]",
@@ -21,7 +21,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_birra_med",
         "colore": "#fff899",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Bibita lattina [€2,50]",
@@ -29,7 +29,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_lattina",
         "colore": "#ff9999",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Bottiglia vino 1/4L [€2]",
@@ -37,7 +37,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_bott_vino14",
         "colore": "#e799ff",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Bottiglia vino 0,75L [€5]",
@@ -45,7 +45,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_bott_vino075",
         "colore": "#e799ff",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Bottiglia acqua GRANDE [€2]",
@@ -53,7 +53,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_acqua_grand",
         "colore": "#99f0ff",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Bottiglia acqua PICCOLA [€1]",
@@ -61,7 +61,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_acqua_pic",
         "colore": "#99f0ff",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Caffè [€1,20]",
@@ -69,7 +69,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_caffe",
         "colore": "#a78c7c",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Caffè corretto [€1,50]",
@@ -77,7 +77,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_caffe_corr",
         "colore": "#a78c7c",
-        "categoria": "bar"
+        "categorie": "bar"
     },
     {
         "name": "Liquore [€3]",
@@ -85,7 +85,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_liquore",
         "colore": "#988fa3",
-        "categoria": "bar"
+        "categorie": "bar"
     },
 
 
@@ -98,7 +98,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_piada",
         "colore": "#ffcf99",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Piada con prosciutto [€7]",
@@ -106,7 +106,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_piada_pros",
         "colore": "linear-gradient(to right, #ffcf99 , #ff9999)",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Piada crudo, casatella e rucola [€7,50]",
@@ -115,7 +115,7 @@ var items = [
         "id_num": "num_piada_cru_ca_ru",
         // "colore": "#ffcf99"
         "colore": "linear-gradient(to right, #ff9999, white, #dbff99)",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Piada con salame [€6]",
@@ -123,7 +123,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_piada_salame",
         "colore": "linear-gradient(to right, #ffcf99 , #ff9999)",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Piada con salsiccia [€7]",
@@ -131,7 +131,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_piada_salsic",
         "colore": "linear-gradient(to right, #ffcf99 , #a78c7c)",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Piada casatella e rucola [€7]",
@@ -139,7 +139,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_piada_casa_ruc",
         "colore": "linear-gradient(to right, white, #dbff99)",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Piada con Gratin (4 pz.) [€7]",
@@ -147,7 +147,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_piada_grat",
         "colore": "linear-gradient(to right, #ff9999, #dbff99)",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Strozzapreti [€7,50]",
@@ -155,7 +155,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_strozzap",
         "colore": "#ffad99",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Trippa [€7,50]",
@@ -163,7 +163,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_trippa",
         "colore": "#ffad99",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Cotiche con fagioli [€7]",
@@ -171,7 +171,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_cotiche_fagio",
         "colore": "#ffad99",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Gratin (4 pz.) [€6]",
@@ -179,7 +179,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_gratin",
         "colore": "#dbff99",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },
     {
         "name": "Insalata [€2,50]",
@@ -187,7 +187,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_insalata",
         "colore": "#dbff99",
-        "categoria": "cibo"
+        "categorie": "cibo"
     },    
     {
         "name": "Patatine [€3]",
@@ -195,7 +195,7 @@ var items = [
         "quantita": 0,
         "id_num": "num_pata",
         "colore": "#fff899",
-        "categoria": "bar"
+        "categorie": "cibo,bar"
     },
     {
         "name": "Hamburger [€7]",
@@ -203,6 +203,6 @@ var items = [
         "quantita": 0,
         "id_num": "num_hamb",
         "colore": "#ff9999",
-        "categoria": "bar"
+        "categorie": "cibo,bar"
     },
 ]

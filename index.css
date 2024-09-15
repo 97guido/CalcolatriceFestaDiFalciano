@@ -2,6 +2,7 @@
     background: #ffe4d1;
     /* background: linear-gradient(#d0f8ff, #ffcf99); */
     font-family: 'Calibri';
+    margin: 0px;
 }
 
 :root {
@@ -19,6 +20,7 @@
     background: #99f0ff; 
     background: #a78c7c; 
     background: #988fa3;
+    background: #71c06a;
 
 }
 
@@ -43,7 +45,7 @@ h2 {
 input {
     text-align: center;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 800;
     padding: 5%;
 }
 
